@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <DocumentationFile>C:\Users\219248\Desktop\Estudos\cSharp\ALURA\Curso_Parte05_ByteBank\ByteBank\ByteBank.Modelos\ByteBank.Modelos.xml</DocumentationFile>
+    <OutputPath>bin\Debug\</OutputPath>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+</Project>
